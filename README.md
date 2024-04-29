@@ -1,5 +1,5 @@
-# Supervised ML and DL methods for anomaly detection in IOT to enahnce network security
-This project aims to evaluate the effectiveness of supervised machine-learning-based and deep-learning-based anomaly detection techniques in distinguishing between benign and malicious network traffic in the IoT-23 dataset and to assess the robustness and scalability of different supervised anomaly detection methods in handling the dynamic and heterogeneous nature of IoT network environments.
+# Supervised ML methods for anomaly detection in IOT to enahnce network security
+This project aims to evaluate the effectiveness of supervised machine-learning-based anomaly detection techniques in distinguishing between benign and malicious network traffic in the IoT-23 dataset and to assess the robustness and scalability of different supervised anomaly detection methods in handling the dynamic and heterogeneous nature of IoT network environments.
 
 
 ## Data Set (Aposemat IoT-23)
@@ -15,7 +15,7 @@ The project is implemented in four distinct steps simulating the essential data 
 - Trained data models are stored inside [applied-ML-DL-methods](applied-ML-DL-methods).
 
 ### PHASE 1 - Data Cleaning and Processing
-> Corresponding Jupyter Notebook:  [iot-23-data-cleaning-and-preprocessing.ipynb](https://github.com/AmazingCoder107856/Machine-and-Deep-Learning-methods-anomaly-detection-using-IoT-23-dataset/blob/main/IOT-23-dataset-extraction/iot-23-data-cleaning-and-preprocessing.ipynb)
+> Corresponding Jupyter Notebook:  [iot-23-data-cleaning-and-preprocessing.ipynb](https://github.com/AmazingCoder107856/Machine-Learning-methods-anomaly-detection-using-IoT-23-dataset/blob/main/IOT-23-dataset-extraction/iot-23-data-cleaning-and-preprocessing.ipynb)
 
 Implemented data exploration and cleaning tasks:
 1. Loading the raw dataset file into pandas DataFrame.
@@ -37,7 +37,7 @@ Implemented data exploration and cleaning tasks:
 15. Checking the processed dataset and storing it to a csv file.
 
 ### PHASE 2 - Data Training
-> Corresponding Jupyter Notebook:  [iot-23-data-training.ipynb](https://github.com/AmazingCoder107856/Machine-and-Deep-Learning-methods-anomaly-detection-using-IoT-23-dataset/blob/main/IOT-23-dataset-extraction/iot-23-data-training.ipynb)
+> Corresponding Jupyter Notebook:  [iot-23-data-training.ipynb](https://github.com/AmazingCoder107856/Machine-Learning-methods-anomaly-detection-using-IoT-23-dataset/blob/main/IOT-23-dataset-extraction/iot-23-data-training.ipynb)
 
 Trained and analyzed classification models:
 1. Naive Bayes: [GaussianNB](https://scikit-learn.org/stable/modules/generated/sklearn.naive_bayes.GaussianNB.html)
@@ -57,56 +57,56 @@ Evaluation method:
 Results were analyzed and compared for each considered model.<br/>
 
 ### PHASE 3 - Data Tuning
-> Corresponding Jupyter Notebook:  [iot-23-data-tuning-Naive-Bayes.ipynb](https://github.com/AmazingCoder107856/Machine-and-Deep-Learning-methods-anomaly-detection-using-IoT-23-dataset/blob/main/IOT-23-dataset-extraction/iot-23-data-tuning-Naive-Bayes.ipynb)
+> Corresponding Jupyter Notebook:  [iot-23-data-tuning-Naive-Bayes.ipynb](https://github.com/AmazingCoder107856/Machine-Learning-methods-anomaly-detection-using-IoT-23-dataset/blob/main/IOT-23-dataset-extraction/iot-23-data-tuning-Naive-Bayes.ipynb)
 
 Model tuning details:
 - Tuned model: Naive Bayes - [GaussianNB](https://scikit-learn.org/stable/modules/generated/sklearn.naive_bayes.GaussianNB.html)
 - Tuning method: [GridSearchCV](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html)
 - Results were analyzed before/after tuning.
 
-> Corresponding Jupyter Notebook:  [iot-23-data-tuning-KNN.ipynb](https://github.com/AmazingCoder107856/Machine-and-Deep-Learning-methods-anomaly-detection-using-IoT-23-dataset/blob/main/IOT-23-dataset-extraction/iot-23-data-tuning-KNN.ipynb)
+> Corresponding Jupyter Notebook:  [iot-23-data-tuning-KNN.ipynb](https://github.com/AmazingCoder107856/Machine-Learning-methods-anomaly-detection-using-IoT-23-dataset/blob/main/IOT-23-dataset-extraction/iot-23-data-tuning-KNN.ipynb)
 
 Model tuning details:
 - Tuned model: KNN - [KNeighborsClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html)
 - Tuning method: [GridSearchCV](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html)
 - Results were analyzed before/after tuning.
 
-> Corresponding Jupyter Notebook:  [iot-23-data-tuning-Decision-Tree.ipynb](https://github.com/AmazingCoder107856/Machine-and-Deep-Learning-methods-anomaly-detection-using-IoT-23-dataset/blob/main/IOT-23-dataset-extraction/iot-23-data-tuning-Decision-Tree.ipynb)
+> Corresponding Jupyter Notebook:  [iot-23-data-tuning-Decision-Tree.ipynb](https://github.com/AmazingCoder107856/Machine-Learning-methods-anomaly-detection-using-IoT-23-dataset/blob/main/IOT-23-dataset-extraction/iot-23-data-tuning-Decision-Tree.ipynb)
 
 Model tuning details:
 - Tuned model: Decision Tree - [DecisionTreeClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html)
 - Tuning method: [GridSearchCV](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html)
 - Results were analyzed before/after tuning.
 
-> Corresponding Jupyter Notebook:  [iot-23-data-tuning-Random-Forest.ipynb](https://github.com/AmazingCoder107856/Machine-and-Deep-Learning-methods-anomaly-detection-using-IoT-23-dataset/blob/main/IOT-23-dataset-extraction/iot-23-data-tuning-Random-Forest.ipynb)
+> Corresponding Jupyter Notebook:  [iot-23-data-tuning-Random-Forest.ipynb](https://github.com/AmazingCoder107856/Machine-Learning-methods-anomaly-detection-using-IoT-23-dataset/blob/main/IOT-23-dataset-extraction/iot-23-data-tuning-Random-Forest.ipynb)
 
 Model tuning details:
 - Tuned model: Random Forest - [RandomForestClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html)
 - Tuning method: [GridSearchCV](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html)
 - Results were analyzed before/after tuning.
 
-> Corresponding Jupyter Notebook:  [iot-23-data-tuning-SVC.ipynb](https://github.com/AmazingCoder107856/Machine-and-Deep-Learning-methods-anomaly-detection-using-IoT-23-dataset/blob/main/IOT-23-dataset-extraction/iot-23-data-tuning-SVC.ipynb)
+> Corresponding Jupyter Notebook:  [iot-23-data-tuning-SVC.ipynb](https://github.com/AmazingCoder107856/Machine-Learning-methods-anomaly-detection-using-IoT-23-dataset/blob/main/IOT-23-dataset-extraction/iot-23-data-tuning-SVC.ipynb)
 
 Model tuning details:
 - Tuned model: LinearSVC - [LinearSVC](https://scikit-learn.org/stable/modules/generated/sklearn.svm.LinearSVC.html#sklearn.svm.LinearSVC)
 - Tuning method: [GridSearchCV](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html)
 - Results were analyzed before/after tuning.
 
-> Corresponding Jupyter Notebook:  [iot-23-data-tuning-ANN.ipynb](https://github.com/AmazingCoder107856/Machine-and-Deep-Learning-methods-anomaly-detection-using-IoT-23-dataset/blob/main/IOT-23-dataset-extraction/iot-23-data-tuning-ANN.ipynb)
+> Corresponding Jupyter Notebook:  [iot-23-data-tuning-ANN.ipynb](https://github.com/AmazingCoder107856/Machine-Learning-methods-anomaly-detection-using-IoT-23-dataset/blob/main/IOT-23-dataset-extraction/iot-23-data-tuning-ANN.ipynb)
 
 Model tuning details:
 - Tuned model: ANN - [MLPClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.neural_network.MLPClassifier.html#sklearn.neural_network.MLPClassifier)
 - Tuning method: [GridSearchCV](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html)
 - Results were analyzed before/after tuning.
 
-> Corresponding Jupyter Notebook:  [iot-23-data-tuning-AdaBoost.ipynb](https://github.com/AmazingCoder107856/Machine-and-Deep-Learning-methods-anomaly-detection-using-IoT-23-dataset/blob/main/IOT-23-dataset-extraction/iot-23-data-tuning-AdaBoost.ipynb)
+> Corresponding Jupyter Notebook:  [iot-23-data-tuning-AdaBoost.ipynb](https://github.com/AmazingCoder107856/Machine-Learning-methods-anomaly-detection-using-IoT-23-dataset/blob/main/IOT-23-dataset-extraction/iot-23-data-tuning-AdaBoost.ipynb)
 
 Model tuning details:
 - Tuned model: AdaBoost - [AdaBoostClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.AdaBoostClassifier.html#sklearn.ensemble.AdaBoostClassifier)
 - Tuning method: [GridSearchCV](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html)
 - Results were analyzed before/after tuning.
 
-> Corresponding Jupyter Notebook:  [iot-23-data-tuning-XGBoost.ipynb](https://github.com/AmazingCoder107856/Machine-and-Deep-Learning-methods-anomaly-detection-using-IoT-23-dataset/blob/main/IOT-23-dataset-extraction/iot-23-data-tuning-XGBoost.ipynb)
+> Corresponding Jupyter Notebook:  [iot-23-data-tuning-XGBoost.ipynb](https://github.com/AmazingCoder107856/Machine-Learning-methods-anomaly-detection-using-IoT-23-dataset/blob/main/IOT-23-dataset-extraction/iot-23-data-tuning-XGBoost.ipynb)
 
 Model tuning details:
 - Tuned model: XGBoost - [XGBClassifier](https://xgboost.readthedocs.io/en/stable/index.html#)
